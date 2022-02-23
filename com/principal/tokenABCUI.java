@@ -110,9 +110,7 @@ public class tokenABCUI extends JFrame {
         jtp.addTab("Asignar stock ",new StockPlantaPanel());
 //        jtp.addTab("Activar Token User",new activarTokPanel(getActivarTokentoUser()));
 //        jtp.addTab("Desactivar Token User",new desactivaTokPanel(getDesactivarTokentoUser()));
-//        jtp.addTab("Reasignar Token User",new reasginTokPanel(getReasignarTokentoUser()));
-//        jtp.addTab("Sincronizar Token User",new sincronizerTokPanel(getSincronizarToken()));
-//        jtp.addTab("Autentificacion Token User",new autentificacionTokPanel(getSendToken()));
+
         //setLayout(new FlowLayout(1,2,1));
     }
     public static void main(String[] args) {

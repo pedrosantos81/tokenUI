@@ -19,6 +19,7 @@ import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTable;
@@ -261,6 +262,13 @@ public class StockPlantaPanel extends JPanel implements ActionListener{
 				   try {
 					msj=model.getCheckLimit(idplanta,Integer.parseInt(txtcantstock.getText()),idprodu);
 					System.out.println(msj.toString());
+					
+					//JOptionPane.showMessageDialog(null, "Mensaje sin icono PLAIN_MESSAGE o -1", "Javadesde0.com", -1);
+			        //JOptionPane.showMessageDialog(null, "Mensaje con ERROR_MESSAGE o 0", "Javadesde0.com", 0);
+			        JOptionPane.showMessageDialog(null, msj.toString(),"Mensaje" , 1);
+			        //JOptionPane.showMessageDialog(null, "Mensaje con WARNING_MESSAGE o 2", "Javadesde0.com", JOptionPane.WARNING_MESSAGE);
+			        //JOptionPane.showMessageDialog(null, "Mensaje con QUESTION_MESSAGE o 3", "Javadesde0.com", JOptionPane.QUESTION_MESSAGE);
+			        
 				} catch (NumberFormatException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();

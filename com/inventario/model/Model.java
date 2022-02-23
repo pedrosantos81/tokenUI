@@ -234,7 +234,7 @@ public class Model {
 				//return ins=true;
 			}else{
 				msj.setIderror("0");
-				msj.setDescriperr("El stock esta mal");
+				msj.setDescriperr("El stock esta mal ,revisarlo");
 				return msj;
 			}
 			

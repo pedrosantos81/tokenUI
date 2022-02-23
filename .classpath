@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="" kind="src"/>
+	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk6" kind="con"/>
+	<classpathentry path="lib/axis.jar" kind="lib"/>
+	<classpathentry path="lib/commons-discovery-0.2.jar" kind="lib"/>
+	<classpathentry path="lib/commons-logging.jar" kind="lib"/>
+	<classpathentry path="lib/commons-logging-1.0.4.jar" kind="lib"/>
+	<classpathentry path="lib/jaxrpc.jar" kind="lib"/>
+	<classpathentry path="lib/jtds-1.2.5.jar" kind="lib"/>
+	<classpathentry path="lib/log4j-1.2.8.jar" kind="lib"/>
+	<classpathentry path="lib/saaj.jar" kind="lib"/>
+	<classpathentry path="lib/wsdl4j.jar" kind="lib"/>
+	<classpathentry path="" kind="output"/>
+</classpath>
